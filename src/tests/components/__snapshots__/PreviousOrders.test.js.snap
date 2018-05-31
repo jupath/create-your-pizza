@@ -1,0 +1,433 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render PreviousOrders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PreviousOrders
+    uid="TestUser"
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <styled.h2>
+          My previous orders
+</styled.h2>,
+        <styled.table>
+          <styled.thead>
+                    <tr>
+                              <td>
+                                        Date
+                              </td>
+                              <td>
+                                        Toppings
+                              </td>
+                              <td>
+                                        Price
+                              </td>
+                    </tr>
+          </styled.thead>
+          <styled.tbody>
+                    <tr>
+                              <td
+                                        colSpan="3"
+                              >
+                                        You have no previous orders
+                              </td>
+                    </tr>
+          </styled.tbody>
+</styled.table>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "My previous orders",
+        },
+        "ref": null,
+        "rendered": "My previous orders",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <styled.thead>
+              <tr>
+                            <td>
+                                          Date
+                            </td>
+                            <td>
+                                          Toppings
+                            </td>
+                            <td>
+                                          Price
+                            </td>
+              </tr>
+</styled.thead>,
+            <styled.tbody>
+              <tr>
+                            <td
+                                          colSpan="3"
+                            >
+                                          You have no previous orders
+                            </td>
+              </tr>
+</styled.tbody>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <tr>
+                <td>
+                                Date
+                </td>
+                <td>
+                                Toppings
+                </td>
+                <td>
+                                Price
+                </td>
+</tr>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td>
+                    Date
+</td>,
+                  <td>
+                    Toppings
+</td>,
+                  <td>
+                    Price
+</td>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Date",
+                  },
+                  "ref": null,
+                  "rendered": "Date",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Toppings",
+                  },
+                  "ref": null,
+                  "rendered": "Toppings",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Price",
+                  },
+                  "ref": null,
+                  "rendered": "Price",
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <tr>
+                <td
+                                colSpan="3"
+                >
+                                You have no previous orders
+                </td>
+</tr>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <td
+                  colSpan="3"
+>
+                  You have no previous orders
+</td>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "You have no previous orders",
+                  "colSpan": "3",
+                },
+                "ref": null,
+                "rendered": "You have no previous orders",
+                "type": "td",
+              },
+              "type": "tr",
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <styled.h2>
+            My previous orders
+</styled.h2>,
+          <styled.table>
+            <styled.thead>
+                        <tr>
+                                    <td>
+                                                Date
+                                    </td>
+                                    <td>
+                                                Toppings
+                                    </td>
+                                    <td>
+                                                Price
+                                    </td>
+                        </tr>
+            </styled.thead>
+            <styled.tbody>
+                        <tr>
+                                    <td
+                                                colSpan="3"
+                                    >
+                                                You have no previous orders
+                                    </td>
+                        </tr>
+            </styled.tbody>
+</styled.table>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "My previous orders",
+          },
+          "ref": null,
+          "rendered": "My previous orders",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <styled.thead>
+                <tr>
+                                <td>
+                                                Date
+                                </td>
+                                <td>
+                                                Toppings
+                                </td>
+                                <td>
+                                                Price
+                                </td>
+                </tr>
+</styled.thead>,
+              <styled.tbody>
+                <tr>
+                                <td
+                                                colSpan="3"
+                                >
+                                                You have no previous orders
+                                </td>
+                </tr>
+</styled.tbody>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <tr>
+                  <td>
+                                    Date
+                  </td>
+                  <td>
+                                    Toppings
+                  </td>
+                  <td>
+                                    Price
+                  </td>
+</tr>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <td>
+                      Date
+</td>,
+                    <td>
+                      Toppings
+</td>,
+                    <td>
+                      Price
+</td>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Date",
+                    },
+                    "ref": null,
+                    "rendered": "Date",
+                    "type": "td",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Toppings",
+                    },
+                    "ref": null,
+                    "rendered": "Toppings",
+                    "type": "td",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Price",
+                    },
+                    "ref": null,
+                    "rendered": "Price",
+                    "type": "td",
+                  },
+                ],
+                "type": "tr",
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <tr>
+                  <td
+                                    colSpan="3"
+                  >
+                                    You have no previous orders
+                  </td>
+</tr>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <td
+                    colSpan="3"
+>
+                    You have no previous orders
+</td>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "You have no previous orders",
+                    "colSpan": "3",
+                  },
+                  "ref": null,
+                  "rendered": "You have no previous orders",
+                  "type": "td",
+                },
+                "type": "tr",
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

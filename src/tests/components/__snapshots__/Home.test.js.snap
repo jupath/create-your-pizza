@@ -1,0 +1,322 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Home correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Home
+    addOrder={[Function]}
+    history={
+        Object {
+            "push": [Function],
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <Pizza />,
+        <styled.div>
+          <CreateYourPizzaTable
+                    handleAddIngredient={[Function]}
+                    handleOrder={[Function]}
+                    handleRemoveIngredient={[Function]}
+                    ingredients={
+                              Array [
+                                        Object {
+                                          "isAdded": false,
+                                          "name": "mushroom",
+                                          "price": 0.9,
+                                        },
+                                        Object {
+                                          "isAdded": false,
+                                          "name": "onion",
+                                          "price": 0.8,
+                                        },
+                                        Object {
+                                          "isAdded": false,
+                                          "name": "olive",
+                                          "price": 1,
+                                        },
+                                        Object {
+                                          "isAdded": false,
+                                          "name": "salami",
+                                          "price": 1.5,
+                                        },
+                                        Object {
+                                          "isAdded": false,
+                                          "name": "bacon",
+                                          "price": 1.4,
+                                        },
+                                      ]
+                    }
+                    sumPrice={4}
+          />
+</styled.div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <CreateYourPizzaTable
+            handleAddIngredient={[Function]}
+            handleOrder={[Function]}
+            handleRemoveIngredient={[Function]}
+            ingredients={
+                        Array [
+                                    Object {
+                                      "isAdded": false,
+                                      "name": "mushroom",
+                                      "price": 0.9,
+                                    },
+                                    Object {
+                                      "isAdded": false,
+                                      "name": "onion",
+                                      "price": 0.8,
+                                    },
+                                    Object {
+                                      "isAdded": false,
+                                      "name": "olive",
+                                      "price": 1,
+                                    },
+                                    Object {
+                                      "isAdded": false,
+                                      "name": "salami",
+                                      "price": 1.5,
+                                    },
+                                    Object {
+                                      "isAdded": false,
+                                      "name": "bacon",
+                                      "price": 1.4,
+                                    },
+                                  ]
+            }
+            sumPrice={4}
+/>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "handleAddIngredient": [Function],
+            "handleOrder": [Function],
+            "handleRemoveIngredient": [Function],
+            "ingredients": Array [
+              Object {
+                "isAdded": false,
+                "name": "mushroom",
+                "price": 0.9,
+              },
+              Object {
+                "isAdded": false,
+                "name": "onion",
+                "price": 0.8,
+              },
+              Object {
+                "isAdded": false,
+                "name": "olive",
+                "price": 1,
+              },
+              Object {
+                "isAdded": false,
+                "name": "salami",
+                "price": 1.5,
+              },
+              Object {
+                "isAdded": false,
+                "name": "bacon",
+                "price": 1.4,
+              },
+            ],
+            "sumPrice": 4,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <Pizza />,
+          <styled.div>
+            <CreateYourPizzaTable
+                        handleAddIngredient={[Function]}
+                        handleOrder={[Function]}
+                        handleRemoveIngredient={[Function]}
+                        ingredients={
+                                    Array [
+                                                Object {
+                                                  "isAdded": false,
+                                                  "name": "mushroom",
+                                                  "price": 0.9,
+                                                },
+                                                Object {
+                                                  "isAdded": false,
+                                                  "name": "onion",
+                                                  "price": 0.8,
+                                                },
+                                                Object {
+                                                  "isAdded": false,
+                                                  "name": "olive",
+                                                  "price": 1,
+                                                },
+                                                Object {
+                                                  "isAdded": false,
+                                                  "name": "salami",
+                                                  "price": 1.5,
+                                                },
+                                                Object {
+                                                  "isAdded": false,
+                                                  "name": "bacon",
+                                                  "price": 1.4,
+                                                },
+                                              ]
+                        }
+                        sumPrice={4}
+            />
+</styled.div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <CreateYourPizzaTable
+              handleAddIngredient={[Function]}
+              handleOrder={[Function]}
+              handleRemoveIngredient={[Function]}
+              ingredients={
+                            Array [
+                                          Object {
+                                            "isAdded": false,
+                                            "name": "mushroom",
+                                            "price": 0.9,
+                                          },
+                                          Object {
+                                            "isAdded": false,
+                                            "name": "onion",
+                                            "price": 0.8,
+                                          },
+                                          Object {
+                                            "isAdded": false,
+                                            "name": "olive",
+                                            "price": 1,
+                                          },
+                                          Object {
+                                            "isAdded": false,
+                                            "name": "salami",
+                                            "price": 1.5,
+                                          },
+                                          Object {
+                                            "isAdded": false,
+                                            "name": "bacon",
+                                            "price": 1.4,
+                                          },
+                                        ]
+              }
+              sumPrice={4}
+/>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "handleAddIngredient": [Function],
+              "handleOrder": [Function],
+              "handleRemoveIngredient": [Function],
+              "ingredients": Array [
+                Object {
+                  "isAdded": false,
+                  "name": "mushroom",
+                  "price": 0.9,
+                },
+                Object {
+                  "isAdded": false,
+                  "name": "onion",
+                  "price": 0.8,
+                },
+                Object {
+                  "isAdded": false,
+                  "name": "olive",
+                  "price": 1,
+                },
+                Object {
+                  "isAdded": false,
+                  "name": "salami",
+                  "price": 1.5,
+                },
+                Object {
+                  "isAdded": false,
+                  "name": "bacon",
+                  "price": 1.4,
+                },
+              ],
+              "sumPrice": 4,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
