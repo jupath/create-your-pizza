@@ -42,7 +42,7 @@ export class PreviousOrders extends Component {
             {
               this.state.previousOrders.length > 0 ?
               this.state.previousOrders.map(previousOrder => <PreviousOrdersItem key={previousOrder.id} previousOrder={previousOrder} />) :
-              <tr><td colSpan="3">You have no previous orders</td></tr>
+              <tr><td colSpan="3">You have no previous orders!</td></tr>
             }
           </Tbody>
         </Table>
